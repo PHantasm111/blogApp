@@ -4,7 +4,7 @@ const Image = ({ src, className, w, h, alt }) => {
     return (
         <IKImage
             urlEndpoint={import.meta.env.VITE_IK_IMAGEKIT_URL_ENDPOINT}
-            path={`blogApp/${src}`}
+            path={`${src}`}
             alt={alt}
             className={className}
             loading="lazy"
