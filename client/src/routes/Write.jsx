@@ -15,7 +15,7 @@ const Write = () => {
   const [value, setValue] = useState('');
   const { getToken } = useAuth();
   const navigate = useNavigate();
-  const [cover, setCover] = useState();
+  const [cover, setCover] = useState("");
   const [img, setImg] = useState();
   const [video, setVideo] = useState();
   const [progress, setProgress] = useState(0)
